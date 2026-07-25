@@ -1,0 +1,3 @@
+requests>=2.31.0
+metaboatrace.scrapers>=3.3.2
+metaboatrace-models>=2.3.7

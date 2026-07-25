@@ -1,0 +1,70 @@
+name: Update Heiwajima data & predictions
+
+on:
+  schedule:
+    # 5x/day JST(=UTC+9): 10:00 13:00 16:00 19:00 22:00 — covers the racing day
+    # and one final pass after the last race to lock in results.
+    - cron: "0 1,4,7,10,13 * * *"
+  workflow_dispatch:
+    inputs:
+      start_date:
+        description: "Backfill start date (YYYY-MM-DD). Leave empty for daily-only update."
+        required: false
+      end_date:
+        description: "Backfill end date (YYYY-MM-DD). Defaults to today."
+        required: false
+      delay:
+        description: "Seconds between HTTP requests (politeness delay)"
+        required: false
+        default: "0.4"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: heiwajima-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Backfill historical race data (manual runs only)
+        if: ${{ github.event.inputs.start_date != '' }}
+        run: |
+          DELAY="${{ github.event.inputs.delay || '0.4' }}"
+          ARGS="--start ${{ github.event.inputs.start_date }} --delay $DELAY"
+          if [ -n "${{ github.event.inputs.end_date }}" ]; then
+            ARGS="$ARGS --end ${{ github.event.inputs.end_date }}"
+          fi
+          python scripts/collect_data.py $ARGS
+
+      - name: Collect + predict today's races
+        run: |
+          DELAY="${{ github.event.inputs.delay || '0.4' }}"
+          TODAY_JST=$(TZ=Asia/Tokyo date +%F)
+          python scripts/predict_today.py --date "$TODAY_JST" --refresh --delay "$DELAY"
+
+      - name: Build aggregate course stats
+        run: python scripts/build_stats.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "no data changes"
+          else
+            git commit -m "chore: update Heiwajima race data and predictions"
+            git push
+          fi

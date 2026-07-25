@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>平和島予想 | 競艇統計予想ツール</title>
+<meta name="description" content="ボートレース平和島の直近データに基づく統計ベースの予想ツール">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="app-header">
+  <h1>🚤 平和島予想</h1>
+  <input type="date" id="date-picker" aria-label="日付を選択">
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tab active" data-tab="races" role="tab" aria-selected="true">レース予想</button>
+  <button class="tab" data-tab="stats" role="tab" aria-selected="false">コース傾向</button>
+  <button class="tab" data-tab="about" role="tab" aria-selected="false">この予想について</button>
+</nav>
+
+<main>
+  <section id="panel-races" class="panel active">
+    <div id="status-banner" class="banner" hidden></div>
+    <div id="race-list" class="race-list"></div>
+  </section>
+
+  <section id="panel-stats" class="panel">
+    <p class="hint">直近に収集した平和島のレース結果から集計した、コース(進入)別の成績です。全国平均ではなく平和島固有の傾向です。</p>
+    <div id="stats-updated" class="hint small"></div>
+    <div id="course-stats"></div>
+  </section>
+
+  <section id="panel-about" class="panel">
+    <h2>予想ロジック</h2>
+    <p>機械学習ではなく、以下の指標を重み付けして合成した統計スコアで順位を予想しています。</p>
+    <ul>
+      <li><strong>コース別勝率(平和島)</strong> — 自サイトで収集した実績値。最大の重み。</li>
+      <li><strong>当地勝率 / 全国勝率</strong> — 公式サイト掲載の選手成績。</li>
+      <li><strong>モーター2連率 / ボート2連率</strong> — 公式サイト掲載の今節成績。</li>
+      <li><strong>展示タイム / 展示スタート</strong> — 直前情報が公開され次第反映(未公開時は他指標で代替)。</li>
+    </ul>
+    <p class="disclaimer">
+      本ツールは公開統計に基づく参考情報であり、的中や利益を保証するものではありません。
+      舟券の購入は自己責任で、20歳未満は購入できません。データは
+      <a href="https://www.boatrace.jp/" target="_blank" rel="noopener">BOAT RACEオフィシャルウェブサイト</a>
+      から取得しています。
+    </p>
+    <p class="hint small">データ範囲: <span id="data-range">-</span></p>
+  </section>
+</main>
+
+<template id="race-card-template">
+  <article class="race-card">
+    <button class="race-card-header">
+      <span class="race-no"></span>
+      <span class="race-title"></span>
+      <span class="confidence"></span>
+      <span class="chevron">▾</span>
+    </button>
+    <div class="race-card-body">
+      <table class="boat-table">
+        <thead>
+          <tr><th>予想</th><th>枠</th><th>選手</th><th>級</th><th>全国</th><th>当地</th><th>モーター</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>
