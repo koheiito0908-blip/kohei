@@ -37,6 +37,12 @@ from metaboatrace.scrapers.official.website.v1707.pages.race.entry_page.scraping
     extract_racer_performances,
     extract_racers,
 )
+from metaboatrace.scrapers.official.website.v1707.pages.race.odds.trifecta_page.location import (
+    create_odds_page_url,
+)
+from metaboatrace.scrapers.official.website.v1707.pages.race.odds.trifecta_page.scraping import (
+    extract_odds,
+)
 from metaboatrace.scrapers.official.website.v1707.pages.race.result_page.location import (
     create_race_result_page_url,
 )
@@ -175,3 +181,20 @@ def fetch_race(race_date: date, race_number: int, *, delay: float = 0.4) -> dict
             ],
         }
     )
+
+
+def fetch_trifecta_odds(
+    race_date: date, race_number: int, *, delay: float = 0.4
+) -> dict[tuple[int, int, int], float] | None:
+    """Fetch live 3連単 odds for a race, keyed by (1st, 2nd, 3rd) pit numbers.
+
+    Odds are only published once entries are finalised and change up until
+    post time, so this is meaningful for *upcoming* races only. Returns None
+    if odds aren't published yet (too early / race already run / canceled).
+    """
+    url = create_odds_page_url(race_date, STADIUM, race_number)
+    try:
+        odds = extract_odds(io.StringIO(fetch_text(url, delay=delay)))
+    except (DataNotFound, RaceCanceled, TypeError):
+        return None
+    return {tuple(o.betting_numbers): o.ratio for o in odds if o.ratio is not None}

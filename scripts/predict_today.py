@@ -16,12 +16,21 @@ metrics missing in a given race (e.g. no exhibition data yet) are dropped and
 the rest re-normalised to sum to 1, so predictions still work early in the
 day and simply sharpen as more official data becomes available.
 
+For races that haven't run yet, per-boat scores are also converted into a
+3連単 (trifecta) win-probability distribution via a Plackett-Luce model, and
+combined with the live official odds to rank combinations by *expected
+value* (probability x payout), not just predicted finishing order — see
+`value_bets` in the output. Odds are only published shortly before a race,
+so this list is empty until then.
+
 Output: docs/data/predictions/YYYY-MM-DD.json and predictions/latest.json
 """
 from __future__ import annotations
 
 import argparse
+import itertools
 import json
+import math
 import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
@@ -30,6 +39,12 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from collect_data import OUT_DIR as RACES_DIR  # noqa: E402
 from collect_data import collect_day  # noqa: E402
+from lib.heiwajima import fetch_trifecta_odds  # noqa: E402
+
+# Plackett-Luce "sharpness": how strongly score differences translate into
+# win-probability differences. Purely a modelling choice, not fitted to data.
+STRENGTH_TEMPERATURE = 5.0
+VALUE_BETS_TOP_N = 5
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 STATS_PATH = REPO_ROOT / "docs" / "data" / "stats" / "course_stats.json"
@@ -134,6 +149,55 @@ def score_race(race: dict, course_stats: dict) -> dict:
     }
 
 
+def trifecta_probabilities(scores: dict[int, float]) -> dict[tuple[int, int, int], float]:
+    """Plackett-Luce model: convert per-boat strength scores into a
+    probability for every ordered (1st, 2nd, 3rd) finish among the boats."""
+    if len(scores) < 3:
+        return {}
+    strength = {pit: math.exp(STRENGTH_TEMPERATURE * s) for pit, s in scores.items()}
+    total = sum(strength.values())
+
+    probs = {}
+    for i, j, k in itertools.permutations(scores.keys(), 3):
+        remaining_after_i = total - strength[i]
+        remaining_after_ij = remaining_after_i - strength[j]
+        if remaining_after_i <= 0 or remaining_after_ij <= 0:
+            continue
+        probs[(i, j, k)] = (
+            (strength[i] / total)
+            * (strength[j] / remaining_after_i)
+            * (strength[k] / remaining_after_ij)
+        )
+    return probs
+
+
+def compute_value_bets(
+    scores: dict[int, float], odds: dict[tuple[int, int, int], float] | None
+) -> list[dict]:
+    """Rank 3連単 combinations by expected value (win probability x payout),
+    not just by predicted finishing order. EV > 1 means the model thinks the
+    combo is under-priced relative to its estimated win probability; most
+    combos will still be < 1 since the track keeps ~25% of the pool."""
+    if not odds:
+        return []
+    probs = trifecta_probabilities(scores)
+    bets = []
+    for combo, prob in probs.items():
+        ratio = odds.get(combo)
+        if ratio is None:
+            continue
+        bets.append(
+            {
+                "combo": list(combo),
+                "probability": round(prob, 4),
+                "odds": ratio,
+                "expected_value": round(prob * ratio, 3),
+            }
+        )
+    bets.sort(key=lambda b: b["expected_value"], reverse=True)
+    return bets[:VALUE_BETS_TOP_N]
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--date", help="YYYY-MM-DD, default: today in JST")
@@ -156,7 +220,19 @@ def main() -> None:
         day_data = json.loads(races_path.read_text())
 
     course_stats = load_course_stats()
-    scored_races = [score_race(r, course_stats) for r in day_data["races"]]
+    scored_races = []
+    for r in day_data["races"]:
+        scored = score_race(r, course_stats)
+        scored["value_bets"] = []
+        if not scored["is_canceled"] and not scored["has_result"]:
+            scores = {
+                p["pit_number"]: p["score"]
+                for p in scored["predictions"]
+                if not p["is_absent"] and p["score"] is not None
+            }
+            odds = fetch_trifecta_odds(target, scored["race_number"], delay=args.delay)
+            scored["value_bets"] = compute_value_bets(scores, odds)
+        scored_races.append(scored)
 
     output = {
         "date": target.isoformat(),

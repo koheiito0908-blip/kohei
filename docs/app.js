@@ -84,7 +84,7 @@
         confEl.textContent = "-";
       }
 
-      const tbody = node.querySelector("tbody");
+      const tbody = node.querySelector(".boat-table tbody");
       for (const p of race.predictions) {
         const tr = document.createElement("tr");
         if (p.is_absent) {
@@ -103,6 +103,25 @@
             <td colspan="2">スコア ${fmt(p.score, 3)}</td>`;
         }
         tbody.appendChild(tr);
+      }
+
+      const valueBetsEl = node.querySelector(".value-bets");
+      const evTbody = node.querySelector(".ev-table tbody");
+      if (race.value_bets && race.value_bets.length > 0) {
+        for (const bet of race.value_bets) {
+          const tr = document.createElement("tr");
+          const comboHtml = bet.combo
+            .map((n) => `<span class="pit-chip pit-${n}">${n}</span>`)
+            .join("→");
+          tr.innerHTML = `
+            <td class="combo">${comboHtml}</td>
+            <td>${(bet.probability * 100).toFixed(1)}%</td>
+            <td>${fmt(bet.odds, 1)}倍</td>
+            <td class="${bet.expected_value >= 1 ? "ev-positive" : ""}">${fmt(bet.expected_value, 2)}</td>`;
+          evTbody.appendChild(tr);
+        }
+      } else {
+        valueBetsEl.hidden = true;
       }
 
       card.querySelector(".race-card-header").addEventListener("click", () => {
