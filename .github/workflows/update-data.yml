@@ -1,6 +1,9 @@
 name: Update Heiwajima data & predictions
 
 on:
+  push:
+    branches:
+      - claude/kyotei-prediction-tool-tz7dao
   schedule:
     # 5x/day JST(=UTC+9): 10:00 13:00 16:00 19:00 22:00 — covers the racing day
     # and one final pass after the last race to lock in results.
