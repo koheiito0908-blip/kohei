@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T05:58:00.927831+00:00",
+  "stadium": "HEIWAJIMA",
+  "date_range": {
+    "from": "2026-07-25",
+    "to": "2026-07-25"
+  },
+  "total_races_analyzed": 6,
+  "by_pit": {
+    "1": {
+      "sample_races": 6,
+      "win_rate": 0.6667,
+      "quinella_rate": 0.6667,
+      "trio_rate": 0.8333,
+      "avg_start_time": 0.215,
+      "winning_trick_share": {
+        "NIGE": 1.0
+      }
+    },
+    "2": {
+      "sample_races": 6,
+      "win_rate": 0.1667,
+      "quinella_rate": 0.1667,
+      "trio_rate": 0.6667,
+      "avg_start_time": 0.21,
+      "winning_trick_share": {
+        "MAKURI": 1.0
+      }
+    },
+    "3": {
+      "sample_races": 6,
+      "win_rate": 0.1667,
+      "quinella_rate": 0.3333,
+      "trio_rate": 0.3333,
+      "avg_start_time": 0.19,
+      "winning_trick_share": {
+        "MAKURI": 1.0
+      }
+    },
+    "4": {
+      "sample_races": 6,
+      "win_rate": 0.0,
+      "quinella_rate": 0.3333,
+      "trio_rate": 0.3333,
+      "avg_start_time": 0.187,
+      "winning_trick_share": {}
+    },
+    "5": {
+      "sample_races": 6,
+      "win_rate": 0.0,
+      "quinella_rate": 0.3333,
+      "trio_rate": 0.5,
+      "avg_start_time": 0.207,
+      "winning_trick_share": {}
+    },
+    "6": {
+      "sample_races": 6,
+      "win_rate": 0.0,
+      "quinella_rate": 0.1667,
+      "trio_rate": 0.3333,
+      "avg_start_time": 0.223,
+      "winning_trick_share": {}
+    }
+  }
+}
