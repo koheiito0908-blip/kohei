@@ -1,0 +1,18 @@
+[
+  {
+    "id": "sample-hero",
+    "name": "サンプル英雄(仮データ)",
+    "rarity": "SSR",
+    "role": "DPS",
+    "element": "",
+    "tier": "A",
+    "synergy_tags": ["crit"],
+    "notes": "これはダミーデータです。実データに置き換えるか削除してください。data/schema.md を参照。",
+    "source": {
+      "type": "manual",
+      "detail": "seed data",
+      "date": "2026-08-03"
+    },
+    "confidence": "low"
+  }
+]

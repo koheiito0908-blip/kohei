@@ -1,0 +1,17 @@
+[
+  {
+    "id": "sample-gear",
+    "name": "サンプル装備(仮データ)",
+    "slot": "weapon",
+    "rarity": "SSR",
+    "tier": "A",
+    "recommended_for": ["DPS"],
+    "effect": "これはダミーデータです。実データに置き換えるか削除してください。data/schema.md を参照。",
+    "source": {
+      "type": "manual",
+      "detail": "seed data",
+      "date": "2026-08-03"
+    },
+    "confidence": "low"
+  }
+]

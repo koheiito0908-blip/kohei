@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>スイッチングヒーローズ 編成最適化ツール</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>スイッチングヒーローズ 編成最適化ツール</h1>
+  <p class="disclaimer">
+    非公式のファンツールです。データはコミュニティが手動で登録したものであり、
+    <strong>Discordの自動収集などは一切行っていません</strong>。データの鮮度・出典は各項目の「出典」欄を確認してください。
+  </p>
+  <nav id="tabs">
+    <button class="tab-btn active" data-tab="browse">一覧・検索</button>
+    <button class="tab-btn" data-tab="sim">編成シミュレーター</button>
+    <button class="tab-btn" data-tab="add">データ登録</button>
+  </nav>
+</header>
+
+<main>
+  <!-- 一覧・検索 -->
+  <section id="tab-browse" class="tab-panel active">
+    <div class="controls">
+      <select id="browse-category">
+        <option value="heroes">英雄</option>
+        <option value="pets">ペット</option>
+        <option value="gear">装備・カード</option>
+      </select>
+      <input type="text" id="browse-search" placeholder="名前で検索...">
+      <select id="browse-tier">
+        <option value="">Tier: すべて</option>
+        <option value="S">S</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+      </select>
+    </div>
+    <div id="browse-list" class="card-grid"></div>
+  </section>
+
+  <!-- 編成シミュレーター -->
+  <section id="tab-sim" class="tab-panel">
+    <p class="hint">
+      所持している英雄・ペット・装備にチェックを入れると、ブラウザ内(あなたの端末内)だけで
+      おすすめ編成を計算します。所持状況はこの端末のlocalStorageに保存され、外部には送信されません。
+    </p>
+    <div class="sim-columns">
+      <div class="sim-owned">
+        <h2>所持チェック</h2>
+        <div class="owned-block">
+          <h3>英雄</h3>
+          <div id="owned-heroes" class="owned-list"></div>
+        </div>
+        <div class="owned-block">
+          <h3>ペット</h3>
+          <div id="owned-pets" class="owned-list"></div>
+        </div>
+        <div class="owned-block">
+          <h3>装備・カード</h3>
+          <div id="owned-gear" class="owned-list"></div>
+        </div>
+      </div>
+      <div class="sim-result">
+        <h2>おすすめ編成</h2>
+        <label>
+          編成人数:
+          <input type="number" id="team-size" min="1" max="8" value="5">
+        </label>
+        <button id="calc-btn">計算する</button>
+        <div id="sim-output"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- データ登録 -->
+  <section id="tab-add" class="tab-panel">
+    <p class="hint">
+      攻略サイトやDiscordで<strong>自分がクライアント上で読んで手動コピーした</strong>テキストをここに貼り付けると、
+      空白行区切りでブロックに分割し、既知の英雄・ペット・装備名との一致を軽くハイライトします。
+      内容を確認しながら右側のフォームで正式なデータに整形し、「ドラフトに追加」→
+      最後に表示されるJSONを <code>data/heroes.json</code> などに手動で貼り付けてコミットしてください。
+      <strong>自動収集や既存データの自動上書きは行いません(すべて人の目でのレビューを介します)。</strong>
+    </p>
+    <div class="add-columns">
+      <div>
+        <h2>1. テキストを貼り付け</h2>
+        <textarea id="paste-input" rows="14" placeholder="ここにコピーしたテキストを貼り付け..."></textarea>
+        <button id="split-btn">ブロックに分割してハイライト</button>
+        <div id="paste-blocks"></div>
+      </div>
+      <div>
+        <h2>2. 構造化フォーム</h2>
+        <form id="entry-form">
+          <label>種別
+            <select id="f-category">
+              <option value="heroes">英雄</option>
+              <option value="pets">ペット</option>
+              <option value="gear">装備・カード</option>
+            </select>
+          </label>
+          <label>名前 <input type="text" id="f-name" required></label>
+          <label>レアリティ <input type="text" id="f-rarity" placeholder="SSR / SR / R"></label>
+          <label>role / slot <input type="text" id="f-role" placeholder="DPS, Tank, weapon..."></label>
+          <label>Tier
+            <select id="f-tier">
+              <option value="S">S</option>
+              <option value="A" selected>A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+            </select>
+          </label>
+          <label>synergy tags(カンマ区切り) <input type="text" id="f-tags"></label>
+          <label>評価コメント / 効果 <textarea id="f-notes" rows="3"></textarea></label>
+          <label>出典(誰が/どこで言っていたか) <input type="text" id="f-source"></label>
+          <label>信頼度
+            <select id="f-confidence">
+              <option value="low">low</option>
+              <option value="medium">medium</option>
+              <option value="high">high</option>
+            </select>
+          </label>
+          <button type="submit">ドラフトに追加</button>
+        </form>
+      </div>
+    </div>
+    <h2>3. ドラフト一覧(コピーしてdata/*.jsonへ貼り付け)</h2>
+    <div class="controls">
+      <button id="copy-all-btn">全ドラフトをJSONでコピー</button>
+      <button id="clear-drafts-btn">ドラフトを全削除</button>
+    </div>
+    <pre id="draft-output"></pre>
+  </section>
+</main>
+
+<footer>
+  <p>本ツールは非公式のファン制作物です。ゲーム運営元・Discordコミュニティとは無関係です。</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
