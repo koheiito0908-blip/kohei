@@ -1,7 +1,7 @@
 {
   "date": "2026-08-04",
   "stadium": "HEIWAJIMA",
-  "generated_at": "2026-08-04T09:41:32.352040+00:00",
+  "generated_at": "2026-08-04T12:04:37.486481+00:00",
   "status": "partial",
   "races": [
     {
@@ -18,7 +18,7 @@
           "racer_rank": "B1",
           "motor_number": 60,
           "is_absent": false,
-          "score": 0.6429,
+          "score": 0.6292,
           "predicted_rank": 1
         },
         {
@@ -45,7 +45,7 @@
           "racer_rank": "B1",
           "motor_number": 52,
           "is_absent": false,
-          "score": 0.3224,
+          "score": 0.306,
           "predicted_rank": 4
         },
         {
@@ -54,7 +54,7 @@
           "racer_rank": "A2",
           "motor_number": 47,
           "is_absent": false,
-          "score": 0.307,
+          "score": 0.306,
           "predicted_rank": 5
         },
         {
@@ -63,7 +63,7 @@
           "racer_rank": "B1",
           "motor_number": 67,
           "is_absent": false,
-          "score": 0.2582,
+          "score": 0.254,
           "predicted_rank": 6
         }
       ],
@@ -92,7 +92,7 @@
           "racer_rank": "B1",
           "motor_number": 14,
           "is_absent": false,
-          "score": 0.5882,
+          "score": 0.5718,
           "predicted_rank": 2
         },
         {
@@ -101,17 +101,8 @@
           "racer_rank": "B1",
           "motor_number": 19,
           "is_absent": false,
-          "score": 0.5423,
+          "score": 0.5285,
           "predicted_rank": 3
-        },
-        {
-          "pit_number": 5,
-          "racer_name": "森竜也",
-          "racer_rank": "B1",
-          "motor_number": 41,
-          "is_absent": false,
-          "score": 0.4457,
-          "predicted_rank": 4
         },
         {
           "pit_number": 6,
@@ -120,6 +111,15 @@
           "motor_number": 11,
           "is_absent": false,
           "score": 0.4423,
+          "predicted_rank": 4
+        },
+        {
+          "pit_number": 5,
+          "racer_name": "森竜也",
+          "racer_rank": "B1",
+          "motor_number": 41,
+          "is_absent": false,
+          "score": 0.4415,
           "predicted_rank": 5
         },
         {
@@ -128,7 +128,7 @@
           "racer_rank": "B1",
           "motor_number": 16,
           "is_absent": false,
-          "score": 0.2697,
+          "score": 0.2687,
           "predicted_rank": 6
         }
       ],
@@ -148,7 +148,7 @@
           "racer_rank": "A2",
           "motor_number": 12,
           "is_absent": false,
-          "score": 0.6712,
+          "score": 0.667,
           "predicted_rank": 1
         },
         {
@@ -175,7 +175,7 @@
           "racer_rank": "A2",
           "motor_number": 23,
           "is_absent": false,
-          "score": 0.4036,
+          "score": 0.3898,
           "predicted_rank": 4
         },
         {
@@ -184,7 +184,7 @@
           "racer_rank": "B1",
           "motor_number": 29,
           "is_absent": false,
-          "score": 0.3736,
+          "score": 0.3572,
           "predicted_rank": 5
         },
         {
@@ -193,7 +193,7 @@
           "racer_rank": "B1",
           "motor_number": 51,
           "is_absent": false,
-          "score": 0.2679,
+          "score": 0.2669,
           "predicted_rank": 6
         }
       ],
@@ -213,7 +213,7 @@
           "racer_rank": "A1",
           "motor_number": 43,
           "is_absent": false,
-          "score": 0.6397,
+          "score": 0.6387,
           "predicted_rank": 1
         },
         {
@@ -222,7 +222,7 @@
           "racer_rank": "A1",
           "motor_number": 21,
           "is_absent": false,
-          "score": 0.6119,
+          "score": 0.5954,
           "predicted_rank": 2
         },
         {
@@ -240,7 +240,7 @@
           "racer_rank": "A2",
           "motor_number": 18,
           "is_absent": false,
-          "score": 0.4429,
+          "score": 0.4387,
           "predicted_rank": 4
         },
         {
@@ -249,7 +249,7 @@
           "racer_rank": "B1",
           "motor_number": 71,
           "is_absent": false,
-          "score": 0.268,
+          "score": 0.2543,
           "predicted_rank": 5
         },
         {
@@ -278,7 +278,7 @@
           "racer_rank": "A1",
           "motor_number": 68,
           "is_absent": false,
-          "score": 0.6671,
+          "score": 0.6507,
           "predicted_rank": 1
         },
         {
@@ -287,7 +287,7 @@
           "racer_rank": "A2",
           "motor_number": 46,
           "is_absent": false,
-          "score": 0.5821,
+          "score": 0.5683,
           "predicted_rank": 2
         },
         {
@@ -314,7 +314,7 @@
           "racer_rank": "B1",
           "motor_number": 27,
           "is_absent": false,
-          "score": 0.2803,
+          "score": 0.2793,
           "predicted_rank": 5
         },
         {
@@ -323,7 +323,7 @@
           "racer_rank": "B1",
           "motor_number": 55,
           "is_absent": false,
-          "score": 0.1984,
+          "score": 0.1942,
           "predicted_rank": 6
         }
       ],
@@ -338,21 +338,21 @@
       "confidence": "低",
       "predictions": [
         {
-          "pit_number": 2,
-          "racer_name": "杉山裕也",
-          "racer_rank": "A2",
-          "motor_number": 49,
-          "is_absent": false,
-          "score": 0.6218,
-          "predicted_rank": 1
-        },
-        {
           "pit_number": 1,
           "racer_name": "川原正明",
           "racer_rank": "B1",
           "motor_number": 37,
           "is_absent": false,
           "score": 0.6133,
+          "predicted_rank": 1
+        },
+        {
+          "pit_number": 2,
+          "racer_name": "杉山裕也",
+          "racer_rank": "A2",
+          "motor_number": 49,
+          "is_absent": false,
+          "score": 0.6053,
           "predicted_rank": 2
         },
         {
@@ -361,7 +361,7 @@
           "racer_rank": "A1",
           "motor_number": 74,
           "is_absent": false,
-          "score": 0.552,
+          "score": 0.5478,
           "predicted_rank": 3
         },
         {
@@ -370,7 +370,7 @@
           "racer_rank": "A1",
           "motor_number": 13,
           "is_absent": false,
-          "score": 0.5023,
+          "score": 0.4885,
           "predicted_rank": 4
         },
         {
@@ -388,7 +388,7 @@
           "racer_rank": "B1",
           "motor_number": 52,
           "is_absent": false,
-          "score": 0.2747,
+          "score": 0.2737,
           "predicted_rank": 6
         }
       ],
@@ -417,7 +417,7 @@
           "racer_rank": "A2",
           "motor_number": 30,
           "is_absent": false,
-          "score": 0.6319,
+          "score": 0.6308,
           "predicted_rank": 2
         },
         {
@@ -435,7 +435,7 @@
           "racer_rank": "A1",
           "motor_number": 48,
           "is_absent": false,
-          "score": 0.4862,
+          "score": 0.4725,
           "predicted_rank": 4
         },
         {
@@ -444,7 +444,7 @@
           "racer_rank": "B1",
           "motor_number": 58,
           "is_absent": false,
-          "score": 0.3487,
+          "score": 0.3445,
           "predicted_rank": 5
         },
         {
@@ -453,7 +453,7 @@
           "racer_rank": "B1",
           "motor_number": 28,
           "is_absent": false,
-          "score": 0.1848,
+          "score": 0.1684,
           "predicted_rank": 6
         }
       ],
@@ -482,7 +482,7 @@
           "racer_rank": "A1",
           "motor_number": 50,
           "is_absent": false,
-          "score": 0.7569,
+          "score": 0.7559,
           "predicted_rank": 2
         },
         {
@@ -491,17 +491,8 @@
           "racer_rank": "B1",
           "motor_number": 41,
           "is_absent": false,
-          "score": 0.2941,
+          "score": 0.2804,
           "predicted_rank": 3
-        },
-        {
-          "pit_number": 2,
-          "racer_name": "萬正嗣",
-          "racer_rank": "B1",
-          "motor_number": 67,
-          "is_absent": false,
-          "score": 0.2768,
-          "predicted_rank": 4
         },
         {
           "pit_number": 5,
@@ -509,7 +500,16 @@
           "racer_rank": "B1",
           "motor_number": 29,
           "is_absent": false,
-          "score": 0.2728,
+          "score": 0.2686,
+          "predicted_rank": 4
+        },
+        {
+          "pit_number": 2,
+          "racer_name": "萬正嗣",
+          "racer_rank": "B1",
+          "motor_number": 67,
+          "is_absent": false,
+          "score": 0.2604,
           "predicted_rank": 5
         },
         {
@@ -538,7 +538,7 @@
           "racer_rank": "A1",
           "motor_number": 38,
           "is_absent": false,
-          "score": 0.7105,
+          "score": 0.6949,
           "predicted_rank": 1
         },
         {
@@ -556,7 +556,7 @@
           "racer_rank": "A1",
           "motor_number": 54,
           "is_absent": false,
-          "score": 0.4679,
+          "score": 0.4557,
           "predicted_rank": 3
         },
         {
@@ -574,7 +574,7 @@
           "racer_rank": "B1",
           "motor_number": 64,
           "is_absent": false,
-          "score": 0.2356,
+          "score": 0.2383,
           "predicted_rank": 5
         },
         {
@@ -595,7 +595,7 @@
       "deadline_at": "2026-08-04T07:37:00+00:00",
       "is_canceled": false,
       "has_result": true,
-      "confidence": "低",
+      "confidence": "中",
       "predictions": [
         {
           "pit_number": 1,
@@ -612,7 +612,7 @@
           "racer_rank": "A2",
           "motor_number": 12,
           "is_absent": false,
-          "score": 0.6821,
+          "score": 0.6684,
           "predicted_rank": 2
         },
         {
@@ -621,7 +621,7 @@
           "racer_rank": "A1",
           "motor_number": 68,
           "is_absent": false,
-          "score": 0.4501,
+          "score": 0.4459,
           "predicted_rank": 3
         },
         {
@@ -630,7 +630,7 @@
           "racer_rank": "B1",
           "motor_number": 60,
           "is_absent": false,
-          "score": 0.384,
+          "score": 0.3829,
           "predicted_rank": 4
         },
         {
@@ -639,7 +639,7 @@
           "racer_rank": "B1",
           "motor_number": 11,
           "is_absent": false,
-          "score": 0.2371,
+          "score": 0.2206,
           "predicted_rank": 5
         },
         {
@@ -677,7 +677,7 @@
           "racer_rank": "A2",
           "motor_number": 46,
           "is_absent": false,
-          "score": 0.5874,
+          "score": 0.571,
           "predicted_rank": 2
         },
         {
@@ -686,7 +686,7 @@
           "racer_rank": "A1",
           "motor_number": 74,
           "is_absent": false,
-          "score": 0.5204,
+          "score": 0.5193,
           "predicted_rank": 3
         },
         {
@@ -695,7 +695,7 @@
           "racer_rank": "B1",
           "motor_number": 51,
           "is_absent": false,
-          "score": 0.2619,
+          "score": 0.2482,
           "predicted_rank": 4
         },
         {
@@ -704,7 +704,7 @@
           "racer_rank": "A2",
           "motor_number": 47,
           "is_absent": false,
-          "score": 0.233,
+          "score": 0.2288,
           "predicted_rank": 5
         },
         {
@@ -742,7 +742,7 @@
           "racer_rank": "A2",
           "motor_number": 18,
           "is_absent": false,
-          "score": 0.6033,
+          "score": 0.5868,
           "predicted_rank": 2
         },
         {
@@ -751,7 +751,7 @@
           "racer_rank": "A1",
           "motor_number": 25,
           "is_absent": false,
-          "score": 0.5325,
+          "score": 0.5315,
           "predicted_rank": 3
         },
         {
@@ -760,7 +760,7 @@
           "racer_rank": "A2",
           "motor_number": 23,
           "is_absent": false,
-          "score": 0.4275,
+          "score": 0.4233,
           "predicted_rank": 4
         },
         {
@@ -769,7 +769,7 @@
           "racer_rank": "B1",
           "motor_number": 16,
           "is_absent": false,
-          "score": 0.2835,
+          "score": 0.2697,
           "predicted_rank": 5
         },
         {
