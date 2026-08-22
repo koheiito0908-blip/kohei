@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-22T07:31:40.471146+00:00",
+  "generated_at": "2026-08-22T10:21:41.682413+00:00",
   "stadium": "HEIWAJIMA",
   "date_range": {
     "from": "2026-07-25",
     "to": "2026-08-22"
   },
-  "total_races_analyzed": 243,
+  "total_races_analyzed": 246,
   "by_pit": {
     "1": {
-      "sample_races": 243,
-      "win_rate": 0.3786,
-      "quinella_rate": 0.5679,
-      "trio_rate": 0.7284,
+      "sample_races": 246,
+      "win_rate": 0.3821,
+      "quinella_rate": 0.5732,
+      "trio_rate": 0.7317,
       "avg_start_time": 0.136,
       "winning_trick_share": {
-        "NIGE": 0.946,
-        "NUKI": 0.054
+        "NIGE": 0.936,
+        "NUKI": 0.064
       }
     },
     "2": {
-      "sample_races": 240,
-      "win_rate": 0.2083,
-      "quinella_rate": 0.4417,
-      "trio_rate": 0.6167,
+      "sample_races": 243,
+      "win_rate": 0.2058,
+      "quinella_rate": 0.4403,
+      "trio_rate": 0.6173,
       "avg_start_time": 0.148,
       "winning_trick_share": {
         "MAKURI": 0.32,
@@ -33,11 +33,11 @@
       }
     },
     "3": {
-      "sample_races": 245,
-      "win_rate": 0.1796,
-      "quinella_rate": 0.3837,
-      "trio_rate": 0.5347,
-      "avg_start_time": 0.139,
+      "sample_races": 248,
+      "win_rate": 0.1774,
+      "quinella_rate": 0.3831,
+      "trio_rate": 0.5363,
+      "avg_start_time": 0.14,
       "winning_trick_share": {
         "MAKURI": 0.477,
         "NUKI": 0.136,
@@ -46,10 +46,10 @@
       }
     },
     "4": {
-      "sample_races": 244,
-      "win_rate": 0.1148,
-      "quinella_rate": 0.2828,
-      "trio_rate": 0.4139,
+      "sample_races": 247,
+      "win_rate": 0.1134,
+      "quinella_rate": 0.2794,
+      "trio_rate": 0.413,
       "avg_start_time": 0.149,
       "winning_trick_share": {
         "MAKURIZASHI": 0.357,
@@ -60,24 +60,24 @@
       }
     },
     "5": {
-      "sample_races": 246,
-      "win_rate": 0.1057,
-      "quinella_rate": 0.2317,
-      "trio_rate": 0.439,
+      "sample_races": 249,
+      "win_rate": 0.1084,
+      "quinella_rate": 0.2329,
+      "trio_rate": 0.4378,
       "avg_start_time": 0.149,
       "winning_trick_share": {
-        "MAKURIZASHI": 0.423,
-        "SASHI": 0.077,
-        "MAKURI": 0.269,
-        "MEGUMARE": 0.115,
-        "NUKI": 0.115
+        "MAKURIZASHI": 0.444,
+        "SASHI": 0.074,
+        "MAKURI": 0.259,
+        "MEGUMARE": 0.111,
+        "NUKI": 0.111
       }
     },
     "6": {
-      "sample_races": 245,
-      "win_rate": 0.0367,
-      "quinella_rate": 0.1388,
-      "trio_rate": 0.3347,
+      "sample_races": 248,
+      "win_rate": 0.0363,
+      "quinella_rate": 0.1371,
+      "trio_rate": 0.3306,
       "avg_start_time": 0.166,
       "winning_trick_share": {
         "MAKURIZASHI": 0.444,
