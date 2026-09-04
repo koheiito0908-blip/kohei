@@ -1,0 +1,15 @@
+{
+  "name": "video-production",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "YouTube動画の編集構造をGemini APIで分析し、その構造を再利用してオリジナル動画を制作するための作業環境",
+  "scripts": {
+    "test:gemini": "node scripts/test-gemini.mjs",
+    "analyze": "node scripts/analyze-video.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "dotenv": "^16.4.5"
+  }
+}

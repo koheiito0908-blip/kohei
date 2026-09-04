@@ -1,3 +1,8 @@
 __pycache__/
 *.pyc
 .venv/
+
+# video-production (YouTube analysis / video generation workspace)
+video-production/node_modules/
+video-production/.env
+video-production/output/*.mp4
