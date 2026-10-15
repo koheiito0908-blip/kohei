@@ -1,7 +1,7 @@
 {
   "date": "2026-10-15",
   "stadium": "HEIWAJIMA",
-  "generated_at": "2026-10-14T17:50:12.830737+00:00",
+  "generated_at": "2026-10-15T05:32:57.134178+00:00",
   "status": "partial",
   "races": [
     {
@@ -9,8 +9,8 @@
       "title": "予選",
       "deadline_at": "2026-10-15T01:30:00+00:00",
       "is_canceled": false,
-      "has_result": false,
-      "confidence": "低",
+      "has_result": true,
+      "confidence": "中",
       "predictions": [
         {
           "pit_number": 1,
@@ -18,17 +18,8 @@
           "racer_rank": "A1",
           "motor_number": 13,
           "is_absent": false,
-          "score": 0.6251,
+          "score": 0.6598,
           "predicted_rank": 1
-        },
-        {
-          "pit_number": 3,
-          "racer_name": "金子拓矢",
-          "racer_rank": "A1",
-          "motor_number": 27,
-          "is_absent": false,
-          "score": 0.58,
-          "predicted_rank": 2
         },
         {
           "pit_number": 2,
@@ -36,7 +27,16 @@
           "racer_rank": "A1",
           "motor_number": 34,
           "is_absent": false,
-          "score": 0.5098,
+          "score": 0.5588,
+          "predicted_rank": 2
+        },
+        {
+          "pit_number": 3,
+          "racer_name": "金子拓矢",
+          "racer_rank": "A1",
+          "motor_number": 27,
+          "is_absent": false,
+          "score": 0.5353,
           "predicted_rank": 3
         },
         {
@@ -45,7 +45,7 @@
           "racer_rank": "A1",
           "motor_number": 52,
           "is_absent": false,
-          "score": 0.439,
+          "score": 0.4301,
           "predicted_rank": 4
         },
         {
@@ -54,7 +54,7 @@
           "racer_rank": "A1",
           "motor_number": 37,
           "is_absent": false,
-          "score": 0.4347,
+          "score": 0.3996,
           "predicted_rank": 5
         },
         {
@@ -63,7 +63,7 @@
           "racer_rank": "A1",
           "motor_number": 65,
           "is_absent": false,
-          "score": 0.2748,
+          "score": 0.2628,
           "predicted_rank": 6
         }
       ],
@@ -74,7 +74,7 @@
       "title": "予選",
       "deadline_at": "2026-10-15T01:57:00+00:00",
       "is_canceled": false,
-      "has_result": false,
+      "has_result": true,
       "confidence": "高",
       "predictions": [
         {
@@ -83,17 +83,8 @@
           "racer_rank": "A1",
           "motor_number": 10,
           "is_absent": false,
-          "score": 0.7981,
+          "score": 0.8112,
           "predicted_rank": 1
-        },
-        {
-          "pit_number": 3,
-          "racer_name": "大池佑来",
-          "racer_rank": "A1",
-          "motor_number": 23,
-          "is_absent": false,
-          "score": 0.5477,
-          "predicted_rank": 2
         },
         {
           "pit_number": 6,
@@ -101,8 +92,8 @@
           "racer_rank": "A1",
           "motor_number": 12,
           "is_absent": false,
-          "score": 0.5444,
-          "predicted_rank": 3
+          "score": 0.5754,
+          "predicted_rank": 2
         },
         {
           "pit_number": 4,
@@ -110,7 +101,16 @@
           "racer_rank": "A1",
           "motor_number": 11,
           "is_absent": false,
-          "score": 0.5305,
+          "score": 0.5495,
+          "predicted_rank": 3
+        },
+        {
+          "pit_number": 3,
+          "racer_name": "大池佑来",
+          "racer_rank": "A1",
+          "motor_number": 23,
+          "is_absent": false,
+          "score": 0.5262,
           "predicted_rank": 4
         },
         {
@@ -119,7 +119,7 @@
           "racer_rank": "A1",
           "motor_number": 60,
           "is_absent": false,
-          "score": 0.3951,
+          "score": 0.441,
           "predicted_rank": 5
         },
         {
@@ -128,7 +128,7 @@
           "racer_rank": "A1",
           "motor_number": 40,
           "is_absent": false,
-          "score": 0.1861,
+          "score": 0.1996,
           "predicted_rank": 6
         }
       ],
@@ -139,7 +139,7 @@
       "title": "予選",
       "deadline_at": "2026-10-15T02:25:00+00:00",
       "is_canceled": false,
-      "has_result": false,
+      "has_result": true,
       "confidence": "中",
       "predictions": [
         {
@@ -148,7 +148,7 @@
           "racer_rank": "A1",
           "motor_number": 43,
           "is_absent": false,
-          "score": 0.7348,
+          "score": 0.7113,
           "predicted_rank": 1
         },
         {
@@ -157,7 +157,7 @@
           "racer_rank": "A1",
           "motor_number": 41,
           "is_absent": false,
-          "score": 0.5854,
+          "score": 0.5827,
           "predicted_rank": 2
         },
         {
@@ -166,7 +166,7 @@
           "racer_rank": "A1",
           "motor_number": 19,
           "is_absent": false,
-          "score": 0.4206,
+          "score": 0.381,
           "predicted_rank": 3
         },
         {
@@ -175,7 +175,7 @@
           "racer_rank": "A1",
           "motor_number": 66,
           "is_absent": false,
-          "score": 0.2764,
+          "score": 0.3138,
           "predicted_rank": 4
         },
         {
@@ -184,7 +184,7 @@
           "racer_rank": "A1",
           "motor_number": 15,
           "is_absent": false,
-          "score": 0.2275,
+          "score": 0.2547,
           "predicted_rank": 5
         },
         {
@@ -193,7 +193,7 @@
           "racer_rank": "A1",
           "motor_number": 20,
           "is_absent": false,
-          "score": 0.1746,
+          "score": 0.2147,
           "predicted_rank": 6
         }
       ],
@@ -204,16 +204,16 @@
       "title": "予選",
       "deadline_at": "2026-10-15T02:54:00+00:00",
       "is_canceled": false,
-      "has_result": false,
+      "has_result": true,
       "confidence": "低",
       "predictions": [
         {
-          "pit_number": 2,
-          "racer_name": "豊田健士郎",
+          "pit_number": 5,
+          "racer_name": "磯部誠",
           "racer_rank": "A1",
-          "motor_number": 46,
+          "motor_number": 50,
           "is_absent": false,
-          "score": 0.6624,
+          "score": 0.6442,
           "predicted_rank": 1
         },
         {
@@ -222,16 +222,16 @@
           "racer_rank": "A1",
           "motor_number": 32,
           "is_absent": false,
-          "score": 0.6525,
+          "score": 0.6331,
           "predicted_rank": 2
         },
         {
-          "pit_number": 5,
-          "racer_name": "磯部誠",
+          "pit_number": 2,
+          "racer_name": "豊田健士郎",
           "racer_rank": "A1",
-          "motor_number": 50,
+          "motor_number": 46,
           "is_absent": false,
-          "score": 0.637,
+          "score": 0.6146,
           "predicted_rank": 3
         },
         {
@@ -240,7 +240,7 @@
           "racer_rank": "A1",
           "motor_number": 68,
           "is_absent": false,
-          "score": 0.5466,
+          "score": 0.5919,
           "predicted_rank": 4
         },
         {
@@ -249,7 +249,7 @@
           "racer_rank": "A1",
           "motor_number": 18,
           "is_absent": false,
-          "score": 0.4318,
+          "score": 0.486,
           "predicted_rank": 5
         },
         {
@@ -258,7 +258,7 @@
           "racer_rank": "A1",
           "motor_number": 73,
           "is_absent": false,
-          "score": 0.2807,
+          "score": 0.286,
           "predicted_rank": 6
         }
       ],
@@ -269,8 +269,8 @@
       "title": "予選",
       "deadline_at": "2026-10-15T03:23:00+00:00",
       "is_canceled": false,
-      "has_result": false,
-      "confidence": "高",
+      "has_result": true,
+      "confidence": "中",
       "predictions": [
         {
           "pit_number": 1,
@@ -278,7 +278,7 @@
           "racer_rank": "A1",
           "motor_number": 72,
           "is_absent": false,
-          "score": 0.7429,
+          "score": 0.7361,
           "predicted_rank": 1
         },
         {
@@ -287,17 +287,8 @@
           "racer_rank": "A1",
           "motor_number": 38,
           "is_absent": false,
-          "score": 0.5756,
+          "score": 0.6441,
           "predicted_rank": 2
-        },
-        {
-          "pit_number": 2,
-          "racer_name": "渡邉和将",
-          "racer_rank": "A1",
-          "motor_number": 58,
-          "is_absent": false,
-          "score": 0.5232,
-          "predicted_rank": 3
         },
         {
           "pit_number": 5,
@@ -305,8 +296,8 @@
           "racer_rank": "A1",
           "motor_number": 35,
           "is_absent": false,
-          "score": 0.3436,
-          "predicted_rank": 4
+          "score": 0.3762,
+          "predicted_rank": 3
         },
         {
           "pit_number": 6,
@@ -314,8 +305,8 @@
           "racer_rank": "A1",
           "motor_number": 57,
           "is_absent": false,
-          "score": 0.2811,
-          "predicted_rank": 5
+          "score": 0.2912,
+          "predicted_rank": 4
         },
         {
           "pit_number": 4,
@@ -323,8 +314,17 @@
           "racer_rank": "A1",
           "motor_number": 29,
           "is_absent": false,
-          "score": 0.236,
-          "predicted_rank": 6
+          "score": 0.29,
+          "predicted_rank": 5
+        },
+        {
+          "pit_number": 2,
+          "racer_name": "渡邉和将",
+          "racer_rank": "A1",
+          "motor_number": 58,
+          "is_absent": true,
+          "score": null,
+          "predicted_rank": null
         }
       ],
       "value_bets": []
@@ -334,7 +334,7 @@
       "title": "予選",
       "deadline_at": "2026-10-15T03:53:00+00:00",
       "is_canceled": false,
-      "has_result": false,
+      "has_result": true,
       "confidence": "低",
       "predictions": [
         {
@@ -343,7 +343,7 @@
           "racer_rank": "A1",
           "motor_number": 21,
           "is_absent": false,
-          "score": 0.7308,
+          "score": 0.6967,
           "predicted_rank": 1
         },
         {
@@ -352,7 +352,7 @@
           "racer_rank": "A1",
           "motor_number": 61,
           "is_absent": false,
-          "score": 0.675,
+          "score": 0.6271,
           "predicted_rank": 2
         },
         {
@@ -361,7 +361,7 @@
           "racer_rank": "A1",
           "motor_number": 13,
           "is_absent": false,
-          "score": 0.2848,
+          "score": 0.3349,
           "predicted_rank": 3
         },
         {
@@ -370,7 +370,7 @@
           "racer_rank": "A1",
           "motor_number": 16,
           "is_absent": false,
-          "score": 0.2773,
+          "score": 0.3178,
           "predicted_rank": 4
         },
         {
@@ -379,7 +379,7 @@
           "racer_rank": "A1",
           "motor_number": 71,
           "is_absent": false,
-          "score": 0.2751,
+          "score": 0.2681,
           "predicted_rank": 5
         },
         {
@@ -388,7 +388,7 @@
           "racer_rank": "A1",
           "motor_number": 69,
           "is_absent": false,
-          "score": 0.2043,
+          "score": 0.2569,
           "predicted_rank": 6
         }
       ],
@@ -399,7 +399,7 @@
       "title": "予選",
       "deadline_at": "2026-10-15T04:24:00+00:00",
       "is_canceled": false,
-      "has_result": false,
+      "has_result": true,
       "confidence": "低",
       "predictions": [
         {
@@ -408,7 +408,7 @@
           "racer_rank": "A1",
           "motor_number": 24,
           "is_absent": false,
-          "score": 0.6806,
+          "score": 0.6309,
           "predicted_rank": 1
         },
         {
@@ -417,7 +417,7 @@
           "racer_rank": "A1",
           "motor_number": 26,
           "is_absent": false,
-          "score": 0.6168,
+          "score": 0.6182,
           "predicted_rank": 2
         },
         {
@@ -426,7 +426,7 @@
           "racer_rank": "A1",
           "motor_number": 74,
           "is_absent": false,
-          "score": 0.6043,
+          "score": 0.6044,
           "predicted_rank": 3
         },
         {
@@ -435,7 +435,7 @@
           "racer_rank": "A1",
           "motor_number": 51,
           "is_absent": false,
-          "score": 0.528,
+          "score": 0.5068,
           "predicted_rank": 4
         },
         {
@@ -444,7 +444,7 @@
           "racer_rank": "A1",
           "motor_number": 65,
           "is_absent": false,
-          "score": 0.4742,
+          "score": 0.4347,
           "predicted_rank": 5
         },
         {
@@ -453,7 +453,7 @@
           "racer_rank": "A1",
           "motor_number": 40,
           "is_absent": false,
-          "score": 0.3388,
+          "score": 0.3549,
           "predicted_rank": 6
         }
       ],
@@ -464,7 +464,7 @@
       "title": "予選",
       "deadline_at": "2026-10-15T04:57:00+00:00",
       "is_canceled": false,
-      "has_result": false,
+      "has_result": true,
       "confidence": "高",
       "predictions": [
         {
@@ -473,7 +473,7 @@
           "racer_rank": "A1",
           "motor_number": 11,
           "is_absent": false,
-          "score": 0.8351,
+          "score": 0.8391,
           "predicted_rank": 1
         },
         {
@@ -482,7 +482,7 @@
           "racer_rank": "A1",
           "motor_number": 25,
           "is_absent": false,
-          "score": 0.6847,
+          "score": 0.6688,
           "predicted_rank": 2
         },
         {
@@ -491,7 +491,7 @@
           "racer_rank": "A1",
           "motor_number": 30,
           "is_absent": false,
-          "score": 0.4494,
+          "score": 0.5011,
           "predicted_rank": 3
         },
         {
@@ -500,7 +500,7 @@
           "racer_rank": "A1",
           "motor_number": 20,
           "is_absent": false,
-          "score": 0.4459,
+          "score": 0.473,
           "predicted_rank": 4
         },
         {
@@ -509,7 +509,7 @@
           "racer_rank": "A1",
           "motor_number": 37,
           "is_absent": false,
-          "score": 0.4026,
+          "score": 0.3623,
           "predicted_rank": 5
         },
         {
@@ -518,7 +518,7 @@
           "racer_rank": "A1",
           "motor_number": 31,
           "is_absent": false,
-          "score": 0.1347,
+          "score": 0.1579,
           "predicted_rank": 6
         }
       ],
@@ -538,7 +538,7 @@
           "racer_rank": "A1",
           "motor_number": 15,
           "is_absent": false,
-          "score": 0.7115,
+          "score": 0.6875,
           "predicted_rank": 1
         },
         {
@@ -547,7 +547,7 @@
           "racer_rank": "A1",
           "motor_number": 23,
           "is_absent": false,
-          "score": 0.6008,
+          "score": 0.5729,
           "predicted_rank": 2
         },
         {
@@ -556,7 +556,7 @@
           "racer_rank": "A1",
           "motor_number": 50,
           "is_absent": false,
-          "score": 0.5555,
+          "score": 0.5618,
           "predicted_rank": 3
         },
         {
@@ -565,7 +565,7 @@
           "racer_rank": "A1",
           "motor_number": 48,
           "is_absent": false,
-          "score": 0.4713,
+          "score": 0.4623,
           "predicted_rank": 4
         },
         {
@@ -574,7 +574,7 @@
           "racer_rank": "A1",
           "motor_number": 14,
           "is_absent": false,
-          "score": 0.4037,
+          "score": 0.4328,
           "predicted_rank": 5
         },
         {
@@ -583,11 +583,62 @@
           "racer_rank": "A1",
           "motor_number": 64,
           "is_absent": false,
-          "score": 0.3108,
+          "score": 0.2893,
           "predicted_rank": 6
         }
       ],
-      "value_bets": []
+      "value_bets": [
+        {
+          "combo": [
+            6,
+            2,
+            1
+          ],
+          "probability": 0.0109,
+          "odds": 663.2,
+          "expected_value": 7.228
+        },
+        {
+          "combo": [
+            2,
+            6,
+            1
+          ],
+          "probability": 0.0123,
+          "odds": 507.1,
+          "expected_value": 6.217
+        },
+        {
+          "combo": [
+            6,
+            1,
+            2
+          ],
+          "probability": 0.0139,
+          "odds": 371.0,
+          "expected_value": 5.175
+        },
+        {
+          "combo": [
+            2,
+            5,
+            1
+          ],
+          "probability": 0.0145,
+          "odds": 350.5,
+          "expected_value": 5.093
+        },
+        {
+          "combo": [
+            6,
+            2,
+            3
+          ],
+          "probability": 0.0058,
+          "odds": 811.6,
+          "expected_value": 4.718
+        }
+      ]
     },
     {
       "race_number": 10,
@@ -652,7 +703,58 @@
           "predicted_rank": 6
         }
       ],
-      "value_bets": []
+      "value_bets": [
+        {
+          "combo": [
+            5,
+            4,
+            1
+          ],
+          "probability": 0.0142,
+          "odds": 280.5,
+          "expected_value": 3.996
+        },
+        {
+          "combo": [
+            5,
+            3,
+            1
+          ],
+          "probability": 0.0381,
+          "odds": 104.5,
+          "expected_value": 3.983
+        },
+        {
+          "combo": [
+            4,
+            3,
+            1
+          ],
+          "probability": 0.0142,
+          "odds": 262.4,
+          "expected_value": 3.714
+        },
+        {
+          "combo": [
+            5,
+            1,
+            4
+          ],
+          "probability": 0.0209,
+          "odds": 149.7,
+          "expected_value": 3.122
+        },
+        {
+          "combo": [
+            4,
+            1,
+            3
+          ],
+          "probability": 0.0163,
+          "odds": 167.1,
+          "expected_value": 2.727
+        }
+      ]
     },
     {
       "race_number": 11,
@@ -717,7 +819,58 @@
           "predicted_rank": 6
         }
       ],
-      "value_bets": []
+      "value_bets": [
+        {
+          "combo": [
+            6,
+            3,
+            1
+          ],
+          "probability": 0.0152,
+          "odds": 589.6,
+          "expected_value": 8.986
+        },
+        {
+          "combo": [
+            6,
+            1,
+            3
+          ],
+          "probability": 0.0176,
+          "odds": 365.8,
+          "expected_value": 6.447
+        },
+        {
+          "combo": [
+            3,
+            6,
+            1
+          ],
+          "probability": 0.0198,
+          "odds": 317.2,
+          "expected_value": 6.285
+        },
+        {
+          "combo": [
+            3,
+            1,
+            2
+          ],
+          "probability": 0.0543,
+          "odds": 100.0,
+          "expected_value": 5.435
+        },
+        {
+          "combo": [
+            3,
+            2,
+            1
+          ],
+          "probability": 0.0303,
+          "odds": 158.6,
+          "expected_value": 4.813
+        }
+      ]
     },
     {
       "race_number": 12,
@@ -782,7 +935,58 @@
           "predicted_rank": 6
         }
       ],
-      "value_bets": []
+      "value_bets": [
+        {
+          "combo": [
+            6,
+            1,
+            3
+          ],
+          "probability": 0.022,
+          "odds": 557.3,
+          "expected_value": 12.238
+        },
+        {
+          "combo": [
+            6,
+            3,
+            1
+          ],
+          "probability": 0.014,
+          "odds": 844.8,
+          "expected_value": 11.836
+        },
+        {
+          "combo": [
+            3,
+            6,
+            1
+          ],
+          "probability": 0.0179,
+          "odds": 456.8,
+          "expected_value": 8.186
+        },
+        {
+          "combo": [
+            3,
+            1,
+            6
+          ],
+          "probability": 0.0539,
+          "odds": 136.8,
+          "expected_value": 7.379
+        },
+        {
+          "combo": [
+            4,
+            3,
+            1
+          ],
+          "probability": 0.0139,
+          "odds": 445.4,
+          "expected_value": 6.175
+        }
+      ]
     }
   ]
 }
