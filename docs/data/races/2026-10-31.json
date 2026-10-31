@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "stadium": "HEIWAJIMA",
   "status": "partial",
-  "collected_at": "2026-10-31T06:37:01.348861Z",
+  "collected_at": "2026-10-31T13:19:24.192936Z",
   "races": [
     {
       "date": "2026-10-31",
@@ -20,11 +20,11 @@
         "stadium_tel_code": "HEIWAJIMA",
         "race_number": 1,
         "in_performance": false,
-        "weather": "FINE",
+        "weather": "CLOUDY",
         "wavelength": 3.0,
         "wind_angle": 270.0,
-        "wind_velocity": 3.0,
-        "air_temperature": 22.0,
+        "wind_velocity": 4.0,
+        "air_temperature": 23.0,
         "water_temperature": 23.0
       },
       "boats": [
@@ -1814,7 +1814,7 @@
       "is_course_fixed": false,
       "use_stabilizer": false,
       "is_canceled": false,
-      "has_result": false,
+      "has_result": true,
       "weather": {
         "race_holding_date": "2026-10-31",
         "stadium_tel_code": "HEIWAJIMA",
@@ -1846,10 +1846,10 @@
           "exhibition_time": 6.71,
           "exhibition_start_time": 0.1,
           "exhibition_start_course": 1,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
-          "result_winning_trick": null,
+          "result_arrival": 1,
+          "result_start_time": 0.13,
+          "result_start_course": 1,
+          "result_winning_trick": "NIGE",
           "result_disqualification": null
         },
         {
@@ -1870,9 +1870,9 @@
           "exhibition_time": 6.68,
           "exhibition_start_time": 0.18,
           "exhibition_start_course": 2,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
+          "result_arrival": 2,
+          "result_start_time": 0.13,
+          "result_start_course": 2,
           "result_winning_trick": null,
           "result_disqualification": null
         },
@@ -1894,9 +1894,9 @@
           "exhibition_time": 6.77,
           "exhibition_start_time": 0.12,
           "exhibition_start_course": 3,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
+          "result_arrival": 3,
+          "result_start_time": 0.14,
+          "result_start_course": 3,
           "result_winning_trick": null,
           "result_disqualification": null
         },
@@ -1918,9 +1918,9 @@
           "exhibition_time": 6.72,
           "exhibition_start_time": 0.17,
           "exhibition_start_course": 4,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
+          "result_arrival": 6,
+          "result_start_time": 0.21,
+          "result_start_course": 4,
           "result_winning_trick": null,
           "result_disqualification": null
         },
@@ -1942,9 +1942,9 @@
           "exhibition_time": 6.75,
           "exhibition_start_time": 0.07,
           "exhibition_start_course": 5,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
+          "result_arrival": 5,
+          "result_start_time": 0.19,
+          "result_start_course": 5,
           "result_winning_trick": null,
           "result_disqualification": null
         },
@@ -1966,14 +1966,23 @@
           "exhibition_time": 6.78,
           "exhibition_start_time": 0.14,
           "exhibition_start_course": 6,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
+          "result_arrival": 4,
+          "result_start_time": 0.24,
+          "result_start_course": 6,
           "result_winning_trick": null,
           "result_disqualification": null
         }
       ],
-      "trifecta_payoffs": []
+      "trifecta_payoffs": [
+        {
+          "betting_numbers": [
+            1,
+            2,
+            3
+          ],
+          "amount": 1000
+        }
+      ]
     },
     {
       "date": "2026-10-31",
@@ -1985,8 +1994,19 @@
       "is_course_fixed": false,
       "use_stabilizer": false,
       "is_canceled": false,
-      "has_result": false,
-      "weather": null,
+      "has_result": true,
+      "weather": {
+        "race_holding_date": "2026-10-31",
+        "stadium_tel_code": "HEIWAJIMA",
+        "race_number": 12,
+        "in_performance": false,
+        "weather": "CLOUDY",
+        "wavelength": 3.0,
+        "wind_angle": 270.0,
+        "wind_velocity": 2.0,
+        "air_temperature": 22.0,
+        "water_temperature": 23.0
+      },
       "boats": [
         {
           "pit_number": 1,
@@ -2002,13 +2022,13 @@
           "motor_trio_rate": 56.52,
           "boat_quinella_rate": 24.68,
           "boat_trio_rate": 49.35,
-          "tilt": null,
-          "exhibition_time": null,
-          "exhibition_start_time": null,
-          "exhibition_start_course": null,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
+          "tilt": 0.0,
+          "exhibition_time": 6.53,
+          "exhibition_start_time": -0.09,
+          "exhibition_start_course": 1,
+          "result_arrival": 2,
+          "result_start_time": 0.14,
+          "result_start_course": 1,
           "result_winning_trick": null,
           "result_disqualification": null
         },
@@ -2026,13 +2046,13 @@
           "motor_trio_rate": 50.57,
           "boat_quinella_rate": 42.67,
           "boat_trio_rate": 54.67,
-          "tilt": null,
-          "exhibition_time": null,
-          "exhibition_start_time": null,
-          "exhibition_start_course": null,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
+          "tilt": -0.5,
+          "exhibition_time": 6.59,
+          "exhibition_start_time": -0.02,
+          "exhibition_start_course": 2,
+          "result_arrival": 4,
+          "result_start_time": 0.13,
+          "result_start_course": 2,
           "result_winning_trick": null,
           "result_disqualification": null
         },
@@ -2050,14 +2070,14 @@
           "motor_trio_rate": 61.54,
           "boat_quinella_rate": 38.54,
           "boat_trio_rate": 54.17,
-          "tilt": null,
-          "exhibition_time": null,
-          "exhibition_start_time": null,
-          "exhibition_start_course": null,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
-          "result_winning_trick": null,
+          "tilt": 0.0,
+          "exhibition_time": 6.6,
+          "exhibition_start_time": 0.27,
+          "exhibition_start_course": 3,
+          "result_arrival": 1,
+          "result_start_time": 0.1,
+          "result_start_course": 3,
+          "result_winning_trick": "MAKURIZASHI",
           "result_disqualification": null
         },
         {
@@ -2074,13 +2094,13 @@
           "motor_trio_rate": 62.96,
           "boat_quinella_rate": 31.96,
           "boat_trio_rate": 52.58,
-          "tilt": null,
-          "exhibition_time": null,
-          "exhibition_start_time": null,
-          "exhibition_start_course": null,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
+          "tilt": 0.0,
+          "exhibition_time": 6.63,
+          "exhibition_start_time": 0.09,
+          "exhibition_start_course": 4,
+          "result_arrival": 3,
+          "result_start_time": 0.13,
+          "result_start_course": 4,
           "result_winning_trick": null,
           "result_disqualification": null
         },
@@ -2098,13 +2118,13 @@
           "motor_trio_rate": 47.25,
           "boat_quinella_rate": 33.73,
           "boat_trio_rate": 51.81,
-          "tilt": null,
-          "exhibition_time": null,
-          "exhibition_start_time": null,
-          "exhibition_start_course": null,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
+          "tilt": 0.0,
+          "exhibition_time": 6.71,
+          "exhibition_start_time": 0.08,
+          "exhibition_start_course": 5,
+          "result_arrival": 6,
+          "result_start_time": 0.18,
+          "result_start_course": 5,
           "result_winning_trick": null,
           "result_disqualification": null
         },
@@ -2122,18 +2142,27 @@
           "motor_trio_rate": 40.96,
           "boat_quinella_rate": 38.95,
           "boat_trio_rate": 53.68,
-          "tilt": null,
-          "exhibition_time": null,
-          "exhibition_start_time": null,
-          "exhibition_start_course": null,
-          "result_arrival": null,
-          "result_start_time": null,
-          "result_start_course": null,
+          "tilt": -0.5,
+          "exhibition_time": 6.7,
+          "exhibition_start_time": 0.01,
+          "exhibition_start_course": 6,
+          "result_arrival": 5,
+          "result_start_time": 0.11,
+          "result_start_course": 6,
           "result_winning_trick": null,
           "result_disqualification": null
         }
       ],
-      "trifecta_payoffs": []
+      "trifecta_payoffs": [
+        {
+          "betting_numbers": [
+            3,
+            1,
+            4
+          ],
+          "amount": 3140
+        }
+      ]
     }
   ]
 }
