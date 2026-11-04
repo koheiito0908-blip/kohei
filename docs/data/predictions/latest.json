@@ -1,69 +1,69 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "stadium": "HEIWAJIMA",
-  "generated_at": "2026-11-04T07:14:15.840484+00:00",
+  "generated_at": "2026-11-04T17:48:20.862608+00:00",
   "status": "partial",
   "races": [
     {
       "race_number": 1,
       "title": "一般",
-      "deadline_at": "2026-11-04T01:52:00+00:00",
+      "deadline_at": "2026-11-05T01:52:00+00:00",
       "is_canceled": false,
-      "has_result": true,
+      "has_result": false,
       "confidence": "中",
       "predictions": [
         {
           "pit_number": 1,
-          "racer_name": "中村守成",
+          "racer_name": "小倉康典",
           "racer_rank": "B1",
-          "motor_number": 29,
+          "motor_number": 49,
           "is_absent": false,
-          "score": 0.675,
+          "score": 0.5915,
           "predicted_rank": 1
         },
         {
           "pit_number": 2,
-          "racer_name": "荒牧凪沙",
+          "racer_name": "冨田秀幸",
           "racer_rank": "B1",
-          "motor_number": 38,
+          "motor_number": 19,
           "is_absent": false,
-          "score": 0.5522,
+          "score": 0.5124,
           "predicted_rank": 2
         },
         {
-          "pit_number": 3,
-          "racer_name": "河野真也",
-          "racer_rank": "A2",
-          "motor_number": 47,
-          "is_absent": false,
-          "score": 0.5401,
-          "predicted_rank": 3
-        },
-        {
-          "pit_number": 4,
+          "pit_number": 6,
           "racer_name": "白神優",
           "racer_rank": "A1",
           "motor_number": 59,
           "is_absent": false,
-          "score": 0.5238,
+          "score": 0.4444,
+          "predicted_rank": 3
+        },
+        {
+          "pit_number": 3,
+          "racer_name": "村田敦",
+          "racer_rank": "B1",
+          "motor_number": 52,
+          "is_absent": false,
+          "score": 0.4248,
           "predicted_rank": 4
         },
         {
-          "pit_number": 5,
-          "racer_name": "渡邉健",
+          "pit_number": 4,
+          "racer_name": "花田和明",
           "racer_rank": "B1",
-          "motor_number": 20,
+          "motor_number": 73,
           "is_absent": false,
-          "score": 0.4246,
+          "score": 0.3164,
           "predicted_rank": 5
         },
         {
-          "pit_number": 6,
-          "racer_name": "米本圭佑",
+          "pit_number": 5,
+          "racer_name": "土性雅也",
           "racer_rank": "B2",
-          "motor_number": 75,
+          "motor_number": 48,
           "is_absent": false,
-          "score": 0.1515,
+          "score": 0.2916,
           "predicted_rank": 6
         }
       ],
@@ -72,63 +72,63 @@
     {
       "race_number": 2,
       "title": "一般",
-      "deadline_at": "2026-11-04T02:20:00+00:00",
+      "deadline_at": "2026-11-05T02:21:00+00:00",
       "is_canceled": false,
-      "has_result": true,
-      "confidence": "低",
+      "has_result": false,
+      "confidence": "高",
       "predictions": [
         {
           "pit_number": 1,
-          "racer_name": "高橋正男",
-          "racer_rank": "A2",
-          "motor_number": 17,
+          "racer_name": "三品隆浩",
+          "racer_rank": "B1",
+          "motor_number": 51,
           "is_absent": false,
-          "score": 0.5896,
+          "score": 0.7666,
           "predicted_rank": 1
         },
         {
-          "pit_number": 6,
-          "racer_name": "田中和也",
-          "racer_rank": "A1",
-          "motor_number": 68,
+          "pit_number": 4,
+          "racer_name": "塩崎優司",
+          "racer_rank": "B1",
+          "motor_number": 58,
           "is_absent": false,
-          "score": 0.5804,
+          "score": 0.5513,
           "predicted_rank": 2
         },
         {
           "pit_number": 2,
-          "racer_name": "土井祥伍",
+          "racer_name": "高山智至",
           "racer_rank": "B1",
-          "motor_number": 23,
+          "motor_number": 44,
           "is_absent": false,
-          "score": 0.4321,
+          "score": 0.4614,
           "predicted_rank": 3
         },
         {
-          "pit_number": 3,
-          "racer_name": "杉江浩明",
-          "racer_rank": "B1",
-          "motor_number": 12,
+          "pit_number": 6,
+          "racer_name": "高橋正男",
+          "racer_rank": "A2",
+          "motor_number": 17,
           "is_absent": false,
-          "score": 0.4247,
+          "score": 0.419,
           "predicted_rank": 4
         },
         {
-          "pit_number": 5,
-          "racer_name": "冨田秀幸",
+          "pit_number": 3,
+          "racer_name": "松本弓雄",
           "racer_rank": "B1",
-          "motor_number": 19,
+          "motor_number": 64,
           "is_absent": false,
-          "score": 0.2982,
+          "score": 0.274,
           "predicted_rank": 5
         },
         {
-          "pit_number": 4,
-          "racer_name": "井芹大志",
-          "racer_rank": "B1",
-          "motor_number": 57,
+          "pit_number": 5,
+          "racer_name": "米本圭佑",
+          "racer_rank": "B2",
+          "motor_number": 75,
           "is_absent": false,
-          "score": 0.223,
+          "score": 0.1841,
           "predicted_rank": 6
         }
       ],
@@ -137,63 +137,63 @@
     {
       "race_number": 3,
       "title": "一般",
-      "deadline_at": "2026-11-04T02:48:00+00:00",
+      "deadline_at": "2026-11-05T02:48:00+00:00",
       "is_canceled": false,
-      "has_result": true,
-      "confidence": "低",
+      "has_result": false,
+      "confidence": "高",
       "predictions": [
         {
-          "pit_number": 2,
-          "racer_name": "杉山貴博",
-          "racer_rank": "A2",
-          "motor_number": 26,
+          "pit_number": 1,
+          "racer_name": "田中和也",
+          "racer_rank": "A1",
+          "motor_number": 68,
           "is_absent": false,
-          "score": 0.6265,
+          "score": 0.971,
           "predicted_rank": 1
         },
         {
-          "pit_number": 6,
-          "racer_name": "内堀学",
-          "racer_rank": "A1",
-          "motor_number": 62,
+          "pit_number": 5,
+          "racer_name": "長岡良也",
+          "racer_rank": "A2",
+          "motor_number": 54,
           "is_absent": false,
-          "score": 0.6166,
+          "score": 0.417,
           "predicted_rank": 2
         },
         {
-          "pit_number": 1,
+          "pit_number": 3,
+          "racer_name": "西尾亮輔",
+          "racer_rank": "B1",
+          "motor_number": 63,
+          "is_absent": false,
+          "score": 0.3797,
+          "predicted_rank": 3
+        },
+        {
+          "pit_number": 4,
+          "racer_name": "中嶋健一郎",
+          "racer_rank": "A2",
+          "motor_number": 70,
+          "is_absent": false,
+          "score": 0.3493,
+          "predicted_rank": 4
+        },
+        {
+          "pit_number": 2,
+          "racer_name": "齋藤和政",
+          "racer_rank": "B1",
+          "motor_number": 35,
+          "is_absent": false,
+          "score": 0.2996,
+          "predicted_rank": 5
+        },
+        {
+          "pit_number": 6,
           "racer_name": "内田圭",
           "racer_rank": "B1",
           "motor_number": 50,
           "is_absent": false,
-          "score": 0.5486,
-          "predicted_rank": 3
-        },
-        {
-          "pit_number": 3,
-          "racer_name": "石原翼",
-          "racer_rank": "A2",
-          "motor_number": 34,
-          "is_absent": false,
-          "score": 0.5185,
-          "predicted_rank": 4
-        },
-        {
-          "pit_number": 5,
-          "racer_name": "石塚裕介",
-          "racer_rank": "B1",
-          "motor_number": 37,
-          "is_absent": false,
-          "score": 0.3639,
-          "predicted_rank": 5
-        },
-        {
-          "pit_number": 4,
-          "racer_name": "近藤稔也",
-          "racer_rank": "B1",
-          "motor_number": 28,
-          "is_absent": false,
-          "score": 0.1123,
+          "score": 0.2633,
           "predicted_rank": 6
         }
       ],
@@ -202,63 +202,63 @@
     {
       "race_number": 4,
       "title": "一般",
-      "deadline_at": "2026-11-04T03:16:00+00:00",
+      "deadline_at": "2026-11-05T03:16:00+00:00",
       "is_canceled": false,
-      "has_result": true,
+      "has_result": false,
       "confidence": "低",
       "predictions": [
         {
           "pit_number": 1,
-          "racer_name": "長尾章平",
-          "racer_rank": "A1",
-          "motor_number": 55,
+          "racer_name": "山口隆史",
+          "racer_rank": "B1",
+          "motor_number": 40,
           "is_absent": false,
-          "score": 0.7188,
+          "score": 0.6966,
           "predicted_rank": 1
         },
         {
-          "pit_number": 3,
-          "racer_name": "森定晃史",
-          "racer_rank": "A2",
-          "motor_number": 16,
+          "pit_number": 4,
+          "racer_name": "吉川喜継",
+          "racer_rank": "A1",
+          "motor_number": 11,
           "is_absent": false,
-          "score": 0.6822,
+          "score": 0.6314,
           "predicted_rank": 2
         },
         {
-          "pit_number": 5,
-          "racer_name": "柏野幸二",
-          "racer_rank": "A2",
-          "motor_number": 71,
+          "pit_number": 3,
+          "racer_name": "土井祥伍",
+          "racer_rank": "B1",
+          "motor_number": 23,
           "is_absent": false,
-          "score": 0.4837,
+          "score": 0.5682,
           "predicted_rank": 3
         },
         {
-          "pit_number": 4,
-          "racer_name": "長岡良也",
-          "racer_rank": "A2",
-          "motor_number": 54,
+          "pit_number": 5,
+          "racer_name": "古結宏",
+          "racer_rank": "A1",
+          "motor_number": 21,
           "is_absent": false,
-          "score": 0.4691,
+          "score": 0.4709,
           "predicted_rank": 4
         },
         {
           "pit_number": 2,
-          "racer_name": "花田和明",
+          "racer_name": "渡邉健",
           "racer_rank": "B1",
-          "motor_number": 73,
+          "motor_number": 20,
           "is_absent": false,
-          "score": 0.4055,
+          "score": 0.4634,
           "predicted_rank": 5
         },
         {
           "pit_number": 6,
-          "racer_name": "山本幸也",
+          "racer_name": "近藤稔也",
           "racer_rank": "B1",
-          "motor_number": 72,
+          "motor_number": 28,
           "is_absent": false,
-          "score": 0.0895,
+          "score": 0.1814,
           "predicted_rank": 6
         }
       ],
@@ -267,63 +267,63 @@
     {
       "race_number": 5,
       "title": "一般",
-      "deadline_at": "2026-11-04T03:44:00+00:00",
+      "deadline_at": "2026-11-05T03:44:00+00:00",
       "is_canceled": false,
-      "has_result": true,
-      "confidence": "中",
+      "has_result": false,
+      "confidence": "高",
       "predictions": [
         {
           "pit_number": 1,
-          "racer_name": "後藤隼之",
+          "racer_name": "柏野幸二",
           "racer_rank": "A2",
-          "motor_number": 39,
+          "motor_number": 71,
           "is_absent": false,
-          "score": 0.6573,
+          "score": 0.7562,
           "predicted_rank": 1
         },
         {
-          "pit_number": 3,
-          "racer_name": "山口隆史",
-          "racer_rank": "B1",
-          "motor_number": 40,
+          "pit_number": 2,
+          "racer_name": "長尾章平",
+          "racer_rank": "A1",
+          "motor_number": 55,
           "is_absent": false,
-          "score": 0.5494,
+          "score": 0.5175,
           "predicted_rank": 2
         },
         {
-          "pit_number": 5,
-          "racer_name": "中嶋健一郎",
+          "pit_number": 4,
+          "racer_name": "石原翼",
           "racer_rank": "A2",
-          "motor_number": 70,
+          "motor_number": 34,
           "is_absent": false,
-          "score": 0.435,
+          "score": 0.3876,
           "predicted_rank": 3
         },
         {
-          "pit_number": 4,
-          "racer_name": "齋藤和政",
+          "pit_number": 3,
+          "racer_name": "冨田秀幸",
           "racer_rank": "B1",
-          "motor_number": 35,
+          "motor_number": 19,
           "is_absent": false,
-          "score": 0.372,
+          "score": 0.3523,
           "predicted_rank": 4
         },
         {
           "pit_number": 6,
-          "racer_name": "古結宏",
-          "racer_rank": "A1",
-          "motor_number": 21,
+          "racer_name": "中村守成",
+          "racer_rank": "B1",
+          "motor_number": 29,
           "is_absent": false,
-          "score": 0.3716,
+          "score": 0.2875,
           "predicted_rank": 5
         },
         {
-          "pit_number": 2,
-          "racer_name": "土性雅也",
-          "racer_rank": "B2",
-          "motor_number": 48,
+          "pit_number": 5,
+          "racer_name": "村田敦",
+          "racer_rank": "B1",
+          "motor_number": 52,
           "is_absent": false,
-          "score": 0.3138,
+          "score": 0.2153,
           "predicted_rank": 6
         }
       ],
@@ -332,9 +332,9 @@
     {
       "race_number": 6,
       "title": "一般",
-      "deadline_at": "2026-11-04T04:12:00+00:00",
+      "deadline_at": "2026-11-05T04:12:00+00:00",
       "is_canceled": false,
-      "has_result": true,
+      "has_result": false,
       "confidence": "低",
       "predictions": [
         {
@@ -343,52 +343,52 @@
           "racer_rank": "A2",
           "motor_number": 61,
           "is_absent": false,
-          "score": 0.6166,
+          "score": 0.678,
           "predicted_rank": 1
         },
         {
-          "pit_number": 6,
-          "racer_name": "葛原大陽",
+          "pit_number": 1,
+          "racer_name": "後藤隼之",
           "racer_rank": "A2",
-          "motor_number": 30,
+          "motor_number": 39,
           "is_absent": false,
-          "score": 0.6058,
+          "score": 0.6658,
           "predicted_rank": 2
         },
         {
-          "pit_number": 3,
-          "racer_name": "高岡竜也",
-          "racer_rank": "A1",
-          "motor_number": 67,
+          "pit_number": 5,
+          "racer_name": "塩崎優司",
+          "racer_rank": "B1",
+          "motor_number": 58,
           "is_absent": false,
-          "score": 0.491,
+          "score": 0.56,
           "predicted_rank": 3
         },
         {
-          "pit_number": 1,
-          "racer_name": "村田敦",
-          "racer_rank": "B1",
-          "motor_number": 52,
+          "pit_number": 3,
+          "racer_name": "土性雅也",
+          "racer_rank": "B2",
+          "motor_number": 48,
           "is_absent": false,
-          "score": 0.4866,
+          "score": 0.3338,
           "predicted_rank": 4
         },
         {
-          "pit_number": 4,
-          "racer_name": "三川昂暁",
-          "racer_rank": "A2",
-          "motor_number": 31,
+          "pit_number": 6,
+          "racer_name": "菊池峰晴",
+          "racer_rank": "B2",
+          "motor_number": 45,
           "is_absent": false,
-          "score": 0.4277,
+          "score": 0.2214,
           "predicted_rank": 5
         },
         {
-          "pit_number": 5,
-          "racer_name": "高山智至",
-          "racer_rank": "B1",
-          "motor_number": 44,
+          "pit_number": 4,
+          "racer_name": "米本圭佑",
+          "racer_rank": "B2",
+          "motor_number": 75,
           "is_absent": false,
-          "score": 0.2443,
+          "score": 0.1782,
           "predicted_rank": 6
         }
       ],
@@ -397,63 +397,63 @@
     {
       "race_number": 7,
       "title": "一般",
-      "deadline_at": "2026-11-04T04:40:00+00:00",
+      "deadline_at": "2026-11-05T04:41:00+00:00",
       "is_canceled": false,
-      "has_result": true,
-      "confidence": "中",
+      "has_result": false,
+      "confidence": "高",
       "predictions": [
         {
           "pit_number": 1,
+          "racer_name": "杉山貴博",
+          "racer_rank": "A2",
+          "motor_number": 26,
+          "is_absent": false,
+          "score": 0.8254,
+          "predicted_rank": 1
+        },
+        {
+          "pit_number": 4,
+          "racer_name": "高岡竜也",
+          "racer_rank": "A1",
+          "motor_number": 67,
+          "is_absent": false,
+          "score": 0.4097,
+          "predicted_rank": 2
+        },
+        {
+          "pit_number": 3,
+          "racer_name": "高山智至",
+          "racer_rank": "B1",
+          "motor_number": 44,
+          "is_absent": false,
+          "score": 0.3477,
+          "predicted_rank": 3
+        },
+        {
+          "pit_number": 6,
           "racer_name": "杉江浩明",
           "racer_rank": "B1",
           "motor_number": 12,
           "is_absent": false,
-          "score": 0.6783,
-          "predicted_rank": 1
-        },
-        {
-          "pit_number": 3,
-          "racer_name": "吉川喜継",
-          "racer_rank": "A1",
-          "motor_number": 11,
-          "is_absent": false,
-          "score": 0.5793,
-          "predicted_rank": 2
-        },
-        {
-          "pit_number": 6,
-          "racer_name": "佐々木大河",
-          "racer_rank": "A1",
-          "motor_number": 56,
-          "is_absent": false,
-          "score": 0.3961,
-          "predicted_rank": 3
-        },
-        {
-          "pit_number": 5,
-          "racer_name": "西尾亮輔",
-          "racer_rank": "B1",
-          "motor_number": 63,
-          "is_absent": false,
-          "score": 0.2538,
+          "score": 0.2948,
           "predicted_rank": 4
         },
         {
-          "pit_number": 4,
-          "racer_name": "中村守成",
+          "pit_number": 2,
+          "racer_name": "小倉康典",
           "racer_rank": "B1",
-          "motor_number": 29,
+          "motor_number": 49,
           "is_absent": false,
-          "score": 0.2276,
+          "score": 0.273,
           "predicted_rank": 5
         },
         {
-          "pit_number": 2,
-          "racer_name": "井芹大志",
+          "pit_number": 5,
+          "racer_name": "齋藤和政",
           "racer_rank": "B1",
-          "motor_number": 57,
+          "motor_number": 35,
           "is_absent": false,
-          "score": 0.2165,
+          "score": 0.2054,
           "predicted_rank": 6
         }
       ],
@@ -462,63 +462,63 @@
     {
       "race_number": 8,
       "title": "一般",
-      "deadline_at": "2026-11-04T05:09:00+00:00",
+      "deadline_at": "2026-11-05T05:09:00+00:00",
       "is_canceled": false,
-      "has_result": true,
-      "confidence": "低",
+      "has_result": false,
+      "confidence": "高",
       "predictions": [
         {
           "pit_number": 1,
-          "racer_name": "河野真也",
-          "racer_rank": "A2",
-          "motor_number": 47,
+          "racer_name": "西尾亮輔",
+          "racer_rank": "B1",
+          "motor_number": 63,
           "is_absent": false,
-          "score": 0.7345,
+          "score": 0.7299,
           "predicted_rank": 1
         },
         {
           "pit_number": 4,
-          "racer_name": "田中和也",
-          "racer_rank": "A1",
-          "motor_number": 68,
+          "racer_name": "三品隆浩",
+          "racer_rank": "B1",
+          "motor_number": 51,
           "is_absent": false,
-          "score": 0.6831,
+          "score": 0.5053,
           "predicted_rank": 2
         },
         {
-          "pit_number": 2,
-          "racer_name": "塩崎優司",
-          "racer_rank": "B1",
-          "motor_number": 58,
+          "pit_number": 5,
+          "racer_name": "河野真也",
+          "racer_rank": "A2",
+          "motor_number": 47,
           "is_absent": false,
-          "score": 0.5297,
+          "score": 0.4641,
           "predicted_rank": 3
         },
         {
           "pit_number": 3,
-          "racer_name": "荒牧凪沙",
+          "racer_name": "花田和明",
           "racer_rank": "B1",
-          "motor_number": 38,
+          "motor_number": 73,
           "is_absent": false,
-          "score": 0.4835,
+          "score": 0.3499,
           "predicted_rank": 4
         },
         {
           "pit_number": 6,
-          "racer_name": "小倉康典",
+          "racer_name": "山本幸也",
           "racer_rank": "B1",
-          "motor_number": 49,
+          "motor_number": 72,
           "is_absent": false,
-          "score": 0.2146,
+          "score": 0.1875,
           "predicted_rank": 5
         },
         {
-          "pit_number": 5,
+          "pit_number": 2,
           "racer_name": "松本弓雄",
           "racer_rank": "B1",
           "motor_number": 64,
           "is_absent": false,
-          "score": 0.1299,
+          "score": 0.1641,
           "predicted_rank": 6
         }
       ],
@@ -526,11 +526,11 @@
     },
     {
       "race_number": 9,
-      "title": "一般特賞",
-      "deadline_at": "2026-11-04T05:41:00+00:00",
+      "title": "一般特選",
+      "deadline_at": "2026-11-05T05:41:00+00:00",
       "is_canceled": false,
-      "has_result": true,
-      "confidence": "高",
+      "has_result": false,
+      "confidence": "中",
       "predictions": [
         {
           "pit_number": 1,
@@ -538,52 +538,52 @@
           "racer_rank": "A1",
           "motor_number": 59,
           "is_absent": false,
-          "score": 0.7804,
+          "score": 0.7489,
           "predicted_rank": 1
         },
         {
-          "pit_number": 3,
-          "racer_name": "高橋正男",
-          "racer_rank": "A2",
-          "motor_number": 17,
+          "pit_number": 6,
+          "racer_name": "田中和也",
+          "racer_rank": "A1",
+          "motor_number": 68,
           "is_absent": false,
-          "score": 0.4539,
+          "score": 0.6581,
           "predicted_rank": 2
         },
         {
-          "pit_number": 5,
-          "racer_name": "三品隆浩",
-          "racer_rank": "B1",
-          "motor_number": 51,
-          "is_absent": false,
-          "score": 0.3525,
-          "predicted_rank": 3
-        },
-        {
           "pit_number": 2,
-          "racer_name": "渡邉健",
-          "racer_rank": "B1",
-          "motor_number": 20,
-          "is_absent": false,
-          "score": 0.345,
-          "predicted_rank": 4
-        },
-        {
-          "pit_number": 4,
           "racer_name": "内田圭",
           "racer_rank": "B1",
           "motor_number": 50,
           "is_absent": false,
-          "score": 0.3152,
+          "score": 0.4203,
+          "predicted_rank": 3
+        },
+        {
+          "pit_number": 4,
+          "racer_name": "荒牧凪沙",
+          "racer_rank": "B1",
+          "motor_number": 38,
+          "is_absent": false,
+          "score": 0.3626,
+          "predicted_rank": 4
+        },
+        {
+          "pit_number": 5,
+          "racer_name": "土井祥伍",
+          "racer_rank": "B1",
+          "motor_number": 23,
+          "is_absent": false,
+          "score": 0.3613,
           "predicted_rank": 5
         },
         {
-          "pit_number": 6,
-          "racer_name": "菊池峰晴",
-          "racer_rank": "B2",
-          "motor_number": 45,
+          "pit_number": 3,
+          "racer_name": "井芹大志",
+          "racer_rank": "B1",
+          "motor_number": 57,
           "is_absent": false,
-          "score": 0.0955,
+          "score": 0.2439,
           "predicted_rank": 6
         }
       ],
@@ -591,64 +591,64 @@
     },
     {
       "race_number": 10,
-      "title": "準優勝戦",
-      "deadline_at": "2026-11-04T06:16:00+00:00",
+      "title": "選抜",
+      "deadline_at": "2026-11-05T06:15:00+00:00",
       "is_canceled": false,
-      "has_result": true,
-      "confidence": "高",
+      "has_result": false,
+      "confidence": "低",
       "predictions": [
         {
-          "pit_number": 1,
-          "racer_name": "内堀学",
+          "pit_number": 2,
+          "racer_name": "吉川喜継",
           "racer_rank": "A1",
-          "motor_number": 62,
+          "motor_number": 11,
           "is_absent": false,
-          "score": 0.8409,
+          "score": 0.7757,
           "predicted_rank": 1
         },
         {
-          "pit_number": 3,
-          "racer_name": "古結宏",
-          "racer_rank": "A1",
-          "motor_number": 21,
+          "pit_number": 1,
+          "racer_name": "長岡良也",
+          "racer_rank": "A2",
+          "motor_number": 54,
           "is_absent": false,
-          "score": 0.5552,
+          "score": 0.7444,
           "predicted_rank": 2
         },
         {
-          "pit_number": 4,
-          "racer_name": "森定晃史",
+          "pit_number": 3,
+          "racer_name": "石原翼",
           "racer_rank": "A2",
-          "motor_number": 16,
+          "motor_number": 34,
           "is_absent": false,
-          "score": 0.5007,
+          "score": 0.5345,
           "predicted_rank": 3
         },
         {
-          "pit_number": 5,
-          "racer_name": "杉山貴博",
-          "racer_rank": "A2",
-          "motor_number": 26,
-          "is_absent": false,
-          "score": 0.4598,
-          "predicted_rank": 4
-        },
-        {
-          "pit_number": 2,
-          "racer_name": "中嶋健一郎",
-          "racer_rank": "A2",
-          "motor_number": 70,
-          "is_absent": false,
-          "score": 0.4534,
-          "predicted_rank": 5
-        },
-        {
-          "pit_number": 6,
+          "pit_number": 4,
           "racer_name": "長尾章平",
           "racer_rank": "A1",
           "motor_number": 55,
           "is_absent": false,
-          "score": 0.3509,
+          "score": 0.5134,
+          "predicted_rank": 4
+        },
+        {
+          "pit_number": 6,
+          "racer_name": "山口隆史",
+          "racer_rank": "B1",
+          "motor_number": 40,
+          "is_absent": false,
+          "score": 0.2744,
+          "predicted_rank": 5
+        },
+        {
+          "pit_number": 5,
+          "racer_name": "後藤隼之",
+          "racer_rank": "A2",
+          "motor_number": 39,
+          "is_absent": false,
+          "score": 0.2263,
           "predicted_rank": 6
         }
       ],
@@ -656,64 +656,64 @@
     },
     {
       "race_number": 11,
-      "title": "準優勝戦",
-      "deadline_at": "2026-11-04T06:43:00+00:00",
+      "title": "選抜",
+      "deadline_at": "2026-11-05T06:42:00+00:00",
       "is_canceled": false,
-      "has_result": true,
+      "has_result": false,
       "confidence": "高",
       "predictions": [
         {
           "pit_number": 1,
-          "racer_name": "葛原大陽",
-          "racer_rank": "A2",
-          "motor_number": 30,
+          "racer_name": "古結宏",
+          "racer_rank": "A1",
+          "motor_number": 21,
           "is_absent": false,
-          "score": 0.9093,
+          "score": 0.7442,
           "predicted_rank": 1
         },
         {
           "pit_number": 3,
-          "racer_name": "長岡良也",
-          "racer_rank": "A2",
-          "motor_number": 54,
-          "is_absent": false,
-          "score": 0.5292,
-          "predicted_rank": 2
-        },
-        {
-          "pit_number": 5,
           "racer_name": "高岡竜也",
           "racer_rank": "A1",
           "motor_number": 67,
           "is_absent": false,
-          "score": 0.4813,
-          "predicted_rank": 3
-        },
-        {
-          "pit_number": 2,
-          "racer_name": "石塚裕介",
-          "racer_rank": "B1",
-          "motor_number": 37,
-          "is_absent": false,
-          "score": 0.4272,
-          "predicted_rank": 4
+          "score": 0.4792,
+          "predicted_rank": 2
         },
         {
           "pit_number": 4,
-          "racer_name": "山口隆史",
-          "racer_rank": "B1",
-          "motor_number": 40,
+          "racer_name": "天野晶夫",
+          "racer_rank": "A2",
+          "motor_number": 61,
           "is_absent": false,
-          "score": 0.2984,
-          "predicted_rank": 5
+          "score": 0.464,
+          "predicted_rank": 3
         },
         {
           "pit_number": 6,
-          "racer_name": "後藤隼之",
+          "racer_name": "杉山貴博",
           "racer_rank": "A2",
-          "motor_number": 39,
+          "motor_number": 26,
           "is_absent": false,
-          "score": 0.2668,
+          "score": 0.455,
+          "predicted_rank": 4
+        },
+        {
+          "pit_number": 5,
+          "racer_name": "柏野幸二",
+          "racer_rank": "A2",
+          "motor_number": 71,
+          "is_absent": false,
+          "score": 0.4488,
+          "predicted_rank": 5
+        },
+        {
+          "pit_number": 2,
+          "racer_name": "中嶋健一郎",
+          "racer_rank": "A2",
+          "motor_number": 70,
+          "is_absent": false,
+          "score": 0.4297,
           "predicted_rank": 6
         }
       ],
@@ -721,11 +721,11 @@
     },
     {
       "race_number": 12,
-      "title": "準優勝戦",
-      "deadline_at": "2026-11-04T07:14:00+00:00",
+      "title": "優勝戦",
+      "deadline_at": "2026-11-05T07:14:00+00:00",
       "is_canceled": false,
       "has_result": false,
-      "confidence": "高",
+      "confidence": "低",
       "predictions": [
         {
           "pit_number": 1,
@@ -733,107 +733,56 @@
           "racer_rank": "A1",
           "motor_number": 56,
           "is_absent": false,
-          "score": 0.725,
+          "score": 0.6996,
           "predicted_rank": 1
         },
         {
-          "pit_number": 6,
-          "racer_name": "吉川喜継",
+          "pit_number": 2,
+          "racer_name": "内堀学",
           "racer_rank": "A1",
-          "motor_number": 11,
+          "motor_number": 62,
           "is_absent": false,
-          "score": 0.4905,
+          "score": 0.6321,
           "predicted_rank": 2
         },
         {
-          "pit_number": 5,
-          "racer_name": "天野晶夫",
+          "pit_number": 4,
+          "racer_name": "葛原大陽",
           "racer_rank": "A2",
-          "motor_number": 61,
+          "motor_number": 30,
           "is_absent": false,
-          "score": 0.49,
+          "score": 0.6088,
           "predicted_rank": 3
         },
         {
-          "pit_number": 2,
-          "racer_name": "柏野幸二",
+          "pit_number": 6,
+          "racer_name": "森定晃史",
           "racer_rank": "A2",
-          "motor_number": 71,
+          "motor_number": 16,
           "is_absent": false,
-          "score": 0.3669,
+          "score": 0.4099,
           "predicted_rank": 4
         },
         {
           "pit_number": 3,
+          "racer_name": "石塚裕介",
+          "racer_rank": "B1",
+          "motor_number": 37,
+          "is_absent": false,
+          "score": 0.3301,
+          "predicted_rank": 5
+        },
+        {
+          "pit_number": 5,
           "racer_name": "三川昂暁",
           "racer_rank": "A2",
           "motor_number": 31,
           "is_absent": false,
-          "score": 0.3483,
-          "predicted_rank": 5
-        },
-        {
-          "pit_number": 4,
-          "racer_name": "石原翼",
-          "racer_rank": "A2",
-          "motor_number": 34,
-          "is_absent": false,
-          "score": 0.3184,
+          "score": 0.3006,
           "predicted_rank": 6
         }
       ],
-      "value_bets": [
-        {
-          "combo": [
-            6,
-            1,
-            5
-          ],
-          "probability": 0.0346,
-          "odds": 401.7,
-          "expected_value": 13.916
-        },
-        {
-          "combo": [
-            6,
-            5,
-            1
-          ],
-          "probability": 0.0181,
-          "odds": 742.6,
-          "expected_value": 13.462
-        },
-        {
-          "combo": [
-            5,
-            6,
-            1
-          ],
-          "probability": 0.0181,
-          "odds": 571.8,
-          "expected_value": 10.361
-        },
-        {
-          "combo": [
-            5,
-            1,
-            6
-          ],
-          "probability": 0.0346,
-          "odds": 277.4,
-          "expected_value": 9.596
-        },
-        {
-          "combo": [
-            1,
-            6,
-            5
-          ],
-          "probability": 0.057,
-          "odds": 75.1,
-          "expected_value": 4.283
-        }
-      ]
+      "value_bets": []
     }
   ]
 }
